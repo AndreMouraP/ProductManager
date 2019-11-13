@@ -14,3 +14,4 @@ C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\Produ
 C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
 C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.dll
 C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.pdb
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.csprojAssemblyReference.cache

@@ -43,7 +43,7 @@ namespace Product.Api.Controllers
             }
         }
 
-        // GET api/v1/category/items[?pageSize=3&pageIndex=10]
+        // GET api/v1/product/items[?pageSize=3&pageIndex=10]
         [HttpGet]
         [Route("[action]")]
         [ProducesResponseType(typeof(ErrorModel), (int)HttpStatusCode.NotFound)]
@@ -67,7 +67,7 @@ namespace Product.Api.Controllers
             }
         }
 
-        // GET api/v1/category/item[?id]
+        // GET api/v1/product/item[?id]
         [HttpGet]
         [Route("[action]")]
         [ProducesResponseType(typeof(ErrorModel), (int)HttpStatusCode.NotFound)]

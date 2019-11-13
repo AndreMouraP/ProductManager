@@ -46,7 +46,11 @@ namespace ProductTests
 
         protected override IService<ProductViewModel> AddService()
         {
-            return new ProductService<ProductViewModel>(new ContextFactory(GetContextOptions("ProductServiceTest")), new ProductViewModelMapper<Model.Entities.Product, ProductViewModel>());            
+            var options = GetContextOptions("ProductServiceTest");
+            return new ProductService<ProductViewModel>(
+                    new ContextFactory(options),
+                    new ProductViewModelMapper<Model.Entities.Product, ProductViewModel>()
+                );            
         }
 
         protected override DbSet<Model.Entities.Product> GetEntitiesDBSet(ProductContext ctx)
