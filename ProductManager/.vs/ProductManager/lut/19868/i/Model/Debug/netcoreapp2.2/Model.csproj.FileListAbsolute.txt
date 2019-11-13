@@ -1,0 +1,16 @@
+C:\Users\andre.m.pinto\source\repos\ProductManager\.vs\ProductManager\lut\0\b\Model\Debug\netcoreapp2.2\Model.deps.json
+C:\Users\andre.m.pinto\source\repos\ProductManager\.vs\ProductManager\lut\0\b\Model\Debug\netcoreapp2.2\Model.dll
+C:\Users\andre.m.pinto\source\repos\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.csprojAssemblyReference.cache
+C:\Users\andre.m.pinto\source\repos\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.csproj.CoreCompileInputs.cache
+C:\Users\andre.m.pinto\source\repos\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\Users\andre.m.pinto\source\repos\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
+C:\Users\andre.m.pinto\source\repos\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.csproj.CopyComplete
+C:\Users\andre.m.pinto\source\repos\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.dll
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\.vs\ProductManager\lut\0\b\Model\Debug\netcoreapp2.2\Model.deps.json
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\.vs\ProductManager\lut\0\b\Model\Debug\netcoreapp2.2\Model.dll
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.csprojAssemblyReference.cache
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.csproj.CoreCompileInputs.cache
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.csproj.CopyComplete
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\.vs\ProductManager\lut\0\i\Model\Debug\netcoreapp2.2\Model.dll

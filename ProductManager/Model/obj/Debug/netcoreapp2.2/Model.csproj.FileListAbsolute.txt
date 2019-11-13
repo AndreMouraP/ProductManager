@@ -1,0 +1,16 @@
+C:\Users\andre.m.pinto\source\repos\ProductManager\Model\bin\Debug\netcoreapp2.2\Model.deps.json
+C:\Users\andre.m.pinto\source\repos\ProductManager\Model\bin\Debug\netcoreapp2.2\Model.dll
+C:\Users\andre.m.pinto\source\repos\ProductManager\Model\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Users\andre.m.pinto\source\repos\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.csproj.CoreCompileInputs.cache
+C:\Users\andre.m.pinto\source\repos\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\Users\andre.m.pinto\source\repos\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
+C:\Users\andre.m.pinto\source\repos\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.dll
+C:\Users\andre.m.pinto\source\repos\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.pdb
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\bin\Debug\netcoreapp2.2\Model.deps.json
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\bin\Debug\netcoreapp2.2\Model.dll
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.csproj.CoreCompileInputs.cache
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.dll
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Model\obj\Debug\netcoreapp2.2\Model.pdb

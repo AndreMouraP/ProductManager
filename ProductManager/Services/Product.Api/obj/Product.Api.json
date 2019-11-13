@@ -1,0 +1,9 @@
+{
+  "x-generator": "NSwag v13.1.3.0 (NJsonSchema v10.0.27.0 (Newtonsoft.Json v11.0.0.0))",
+  "swagger": "2.0",
+  "info": {
+    "title": "Products",
+    "description": "Service responsible for products and galeries interaction",
+    "version": "v1"
+  }
+}
