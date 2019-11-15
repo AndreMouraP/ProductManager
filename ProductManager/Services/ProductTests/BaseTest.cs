@@ -2,11 +2,12 @@ using BogusMockGenerators.Abstractions;
 using Microsoft.EntityFrameworkCore;
 using Model.Contexts;
 using Model.Entities;
-using Product.Api.Abstrations;
+using Abstrations;
 using ProductTests.Utils;
 using System;
 using System.Collections.Generic;
 using Xunit;
+using System.Linq;
 
 namespace ProductTests
 {
@@ -14,9 +15,9 @@ namespace ProductTests
         where TEntity : BaseEntity
     {
         protected IEntityGenerator<TEntity> Generator { get; set; }
-        protected IViewModelGenerator<TViewmodel> ViewModelGenerator { get; set; }
+        protected IGenerator<TViewmodel> ViewModelGenerator { get; set; }
 
-        public BaseTest(IEntityGenerator<TEntity> generator, IViewModelGenerator<TViewmodel> viewModelGenerator)
+        public BaseTest(IEntityGenerator<TEntity> generator, IGenerator<TViewmodel> viewModelGenerator)
         {
             this.Generator = generator;
             this.ViewModelGenerator = viewModelGenerator;
@@ -54,7 +55,7 @@ namespace ProductTests
         }
 
         [Fact]
-        public void Test_TryCreate()
+        public void Test_TryCreateOne()
         {
             // Arrange
             var arrange = this.Arrange("Test_TryCreate");
@@ -68,5 +69,37 @@ namespace ProductTests
             // Assert
             Assert.True(isEntityCreated);
         }
+
+        [Fact]
+        public void Test_TryCreateMultiple()
+        {
+            // Arrange
+            var arrange = this.Arrange("Test_TryCreate");
+            var service = arrange.Service;
+
+            var viewmodel = ViewModelGenerator.GenerateMultiple(10);
+
+            // Act
+            var isEntityCreated = service.Post(viewmodel);
+
+            // Assert
+            Assert.True(isEntityCreated);
+        }
+
+
+        [Fact]
+        public void Test_GetAllWhere_Empty()
+        {
+            // Arrange
+            var arrange = this.Arrange("Test_GetAllWhere_Empty");
+            var service = arrange.Service;
+
+            // Act
+            var entitiesToCheck = service.Get();
+
+            // Assert
+            Assert.Empty(entitiesToCheck);
+        }
+
     }
 }

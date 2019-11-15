@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Model.Contexts;
 using Model.Entities;
-using Product.Api.Abstrations;
+using Abstrations;
 
 namespace ProductTests.Utils
 {

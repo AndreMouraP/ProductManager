@@ -37,8 +37,10 @@ C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\Produ
 C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\ProductTests.pdb
 C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\BogusMockGenerators.dll
 C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\Model.dll
-C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\Product.Api.dll
 C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\Model.pdb
 C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\BogusMockGenerators.pdb
-C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\Product.Api.pdb
 C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\obj\Debug\netcoreapp2.2\ProductTests.csproj.CopyComplete
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\Abstractions.dll
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\Abstractions.pdb
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\Products.Api.dll
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Services\ProductTests\bin\Debug\netcoreapp2.2\Products.Api.pdb

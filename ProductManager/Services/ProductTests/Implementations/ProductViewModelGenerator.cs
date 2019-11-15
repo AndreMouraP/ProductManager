@@ -1,32 +1,36 @@
 ﻿using Bogus;
-using Product.Api.Mapper;
-using System;
+using BogusMockGenerators.Implementations;
+using Model.Contexts;
+using Model.Entities;
+using Products.Api.ViewModel;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ProductTests.Implementations
 {
-    public class ProductViewModelGenerator : IViewModelGenerator<ProductViewModel>
+    public class ProductViewModelGenerator : IGenerator<ProductViewModel>
     {
-        private readonly Faker<ProductViewModel> faker;
-        public ProductViewModelGenerator()
+        private readonly Faker<ProductViewModel> _Faker;
+        public ProductViewModelGenerator(ProductContext ctx)
         {
-            var categoryGenerator = new CategoryViewModelGenerator();
+            Category category = new CategoryGenerator().Generate();
+            ctx.Categories.Add(category);
+            ctx.SaveChanges();
 
-            this.faker = new Faker<ProductViewModel>()
-                .RuleFor(ev => ev.Id, faker => new Guid())
+            this._Faker = new Faker<ProductViewModel>()
+                .RuleFor(ev => ev.Id, faker => faker.Lorem.Sentence(3))
                 .RuleFor(p => p.Name, faker => faker.Lorem.Sentence(3))
-                .RuleFor(ev => ev.CategoryId, categoryGenerator.Generate().Id);
+                .RuleFor(ev => ev.CategoryId, category.Id);
         }
 
         public ProductViewModel Generate()
         {
-            return this.faker.Generate();
+            return this._Faker.Generate();
         }
 
         public IEnumerable<ProductViewModel> GenerateMultiple(int count)
         {
-            return this.faker.Generate(count);
+            return this._Faker.Generate(count);
         }
     }
 }

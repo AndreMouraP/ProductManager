@@ -1,0 +1,12 @@
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\obj\Debug\netcoreapp2.2\Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\obj\Debug\netcoreapp2.2\Abstractions.AssemblyInfoInputs.cache
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\obj\Debug\netcoreapp2.2\Abstractions.AssemblyInfo.cs
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\bin\Debug\netcoreapp2.2\Abstractions.deps.json
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\bin\Debug\netcoreapp2.2\Abstractions.dll
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\bin\Debug\netcoreapp2.2\Abstractions.pdb
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\bin\Debug\netcoreapp2.2\Model.dll
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\obj\Debug\netcoreapp2.2\Abstractions.csprojAssemblyReference.cache
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\obj\Debug\netcoreapp2.2\Abstractions.csproj.CopyComplete
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\obj\Debug\netcoreapp2.2\Abstractions.dll
+C:\Users\andre.m.pinto\Documents\Reps\Others\ProjectManager\ProductManager\ProductManager\Abstractions\obj\Debug\netcoreapp2.2\Abstractions.pdb

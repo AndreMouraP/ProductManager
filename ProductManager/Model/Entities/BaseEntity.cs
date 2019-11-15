@@ -6,13 +6,13 @@ namespace Model.Entities
 {
     public class BaseEntity
     {
-        public Guid Id { get; set; }
+        public string Id { get; set; }
         public DateTimeOffset CreatedAt { get; set; }
         public DateTimeOffset? UpdatedAt { get; set; }
 
         public BaseEntity()
         {
-            this.Id = Guid.NewGuid();
+            this.Id = Guid.NewGuid().ToString();
         }
 
         public override bool Equals(object obj)

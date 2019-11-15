@@ -17,7 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Model\Model.csproj" />
     <ProjectReference Include="..\..\Shared\BogusMockGenerators\BogusMockGenerators.csproj" />
-    <ProjectReference Include="..\Product.Api\Product.Api.csproj" />
+    <ProjectReference Include="..\Products.Api\Products.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>

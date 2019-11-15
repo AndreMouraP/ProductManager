@@ -1,36 +1,46 @@
-﻿using BogusMockGenerators.Implementations;
+﻿using Abstrations;
+using BogusMockGenerators.Implementations;
 using Microsoft.EntityFrameworkCore;
 using Model.Contexts;
-using Product.Api.Abstrations;
-using Product.Api.Factory;
-using Product.Api.Mapper;
-using Product.Api.Services;
+using Model.Entities;
+using Products.Api.Factory;
+using Products.Api.Mapper;
+using Products.Api.Services;
+using Products.Api.ViewModel;
 using ProductTests.Implementations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Xunit;
 
 namespace ProductTests
 {
-    public class ProductServiceTest: BaseTest<Model.Entities.Product, ProductViewModel>
+    public class ProductServiceTest: BaseTest<Product, ProductViewModel>
     {
-        public ProductServiceTest() : base(new ProductGenerator(), new ProductViewModelGenerator()) { }
+        public ProductServiceTest() : base(
+            new ProductGenerator(new ProductContext(new DbContextOptionsBuilder<ProductContext>()
+                .UseInMemoryDatabase("ProductServiceTest").Options)),
+            new ProductViewModelGenerator(new ProductContext(new DbContextOptionsBuilder<ProductContext>()
+                .UseInMemoryDatabase("ProductServiceTest").Options))) { }
 
-        protected override void AddEntities(IEnumerable<Model.Entities.Product> entities, ProductContext ctx)
+        protected override void AddEntities(IEnumerable<Product> entities, ProductContext ctx)
         {
-            var category = entities.Select(p => p.Category);
+            foreach (Product prod in entities)
+            {
+                var category = entities.Select(p => p.Category);
 
-            ctx
-                .Categories
-                .AddRange(category);
-            ctx
-                .Products
-                .AddRange(entities);
-
+                ctx
+                    .Categories
+                    .AddRange(category);
+                ctx
+                    .Products
+                    .AddRange(entities);
+            }
+           
             ctx.SaveChanges();
         }
 
-        protected override void AddEntity(Model.Entities.Product entity, ProductContext ctx)
+        protected override void AddEntity(Product entity, ProductContext ctx)
         {
             var category = entity.Category;
 
@@ -47,9 +57,9 @@ namespace ProductTests
         protected override IService<ProductViewModel> AddService()
         {
             var options = GetContextOptions("ProductServiceTest");
-            return new ProductService<ProductViewModel>(
+            return new ProductService(
                     new ContextFactory(options),
-                    new ProductViewModelMapper<Model.Entities.Product, ProductViewModel>()
+                    new ProductViewModelMapper()
                 );            
         }
 
