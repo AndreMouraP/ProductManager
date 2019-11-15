@@ -12,6 +12,9 @@ This application was made conseidering the following request sent via email by R
 As such, I did a simple product and category manager which I called "ProductManager".
 I tried to do a clean and understandable application following the SOLID principles of object oriented applications.
 
+Before you try to use this API, make sure you set the environment variable:
+CONNECTION_STRING_PRODUCTMANAGER with your connection string.
+
 As you run the Products.Api webapplication, you will come across a swagger page from which you can check the 2 available controllers and all endpoints available.
 
 Now regarding the solution itself:

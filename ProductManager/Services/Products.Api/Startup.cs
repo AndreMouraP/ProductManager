@@ -33,7 +33,7 @@ namespace Products.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var ConnectionString = "Data Source=PTJ5MW5S2;Initial Catalog=master;Integrated Security=True";
+            var ConnectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING_PRODUCTMANAGER");
 
             services.AddSingleton<IMapper<Category, CategoryViewModel>,CategoryViewModelMapper>();
             services.AddSingleton<IMapper<Product, ProductViewModel>, ProductViewModelMapper>();
