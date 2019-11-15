@@ -18,9 +18,11 @@ CONNECTION_STRING_PRODUCTMANAGER with your connection string.
 As you run the Products.Api webapplication, you will come across a swagger page from which you can check the 2 available controllers and all endpoints available.
 
 Now regarding the solution itself:
--As requested, I used 2 design patterns a mapper to map the dtos to view models and vice versa, and a factory to create contexts so that we close the connection when not in use.
+- As requested, I used 2 design patterns a mapper to map the dtos to view models and vice versa, and a factory to create contexts so that we close the connection when not in use.
 - I created the exact entities requested with the required fields.
 
 Testing:
--Even tho the tests might not cover the hole solution, I did a mock to emulate the database and created a base test which can be used to easily test diferent services. 
+- Due to the lack of time the tests might not cover the hole solution at this stage although, I did a mock to emulate the database and created a base test which can be used to easily test diferent services. 
 This means that you can easily add more tests to all the services you which to add or, if you which, you can add specific tests to specific services.
+
+If you have sugestions/constructive constructive criticism please contact me, I'm always interested in improving.
