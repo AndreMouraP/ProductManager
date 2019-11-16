@@ -17,7 +17,7 @@ namespace SqlMigrations
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            var connectionstring = "Data Source=PTJ5MW5S2;Initial Catalog=master;Integrated Security=True";
+            var connectionstring = Environment.GetEnvironmentVariable("CONNECTION_STRING_PRODUCTMANAGER");
             services.AddDbContext<ProductContext>
                 (options => options.UseSqlServer(connectionstring, b => b.MigrationsAssembly("SqlMigrations")));
 
